@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Latihan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/fontawesome-all.css">
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  </head>
+  <body>
+    <div class="navigate">
+      <div class="wrapper">
+        <div class="logo">
+          <img src="Logo.png" alt="">
+        </div>
+        <div class="nav">
+            <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Portofolio</a></li>
+            <li><a href="#">Family</a></li>
+            <li><a href="#">Contact</a></li>
+            <button class="openBtn" onclick="openSearch()"><i class="fas fa-search"></i></button>
+            </ul>
+        </div>
+        <div class="clear">
+
+        </div>
+        <div id="myOverlay" class="overlay">
+          <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+          <div class="overlay-content">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit"></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header">
+      <div class="bg">
+        <img src="header.jpg" alt="">
+      </div>
+      <div class="wrapper">
+        <div class="ct">
+          <span class="ab"><p>Let's Make Your Dream Come True</p></span>
+          <span class="ac"><p>As a provider of information services and technology, we always want to provide the best in creating and realizing the dream (Dream) to have the company’s website (Corporate) or personal websites (Personal).</p></span>
+          <span class="ad"><a href="#">About Us</a></span>
+          <span class="ae"><a href="#">Build Dream</a></span>
+        </div>
+        <div class="clear">
+
+        </div>
+      </div>
+    </div>
+    <div class="wt">
+      <div class="wrapper">
+        <span class="af"><p>We Try to Understand the Desires of Customers</p></span>
+        <span class="ag"><p>It’s an honor for us if we can realize the customer’s dream to have a Website or Application and hopefully what we offer can be a tool to market products and can help simplify the work.</p></span>
+        <div class="ai">
+          <img src="line.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="services">
+      <div class="wrapper">
+        <span class="ours"><p>Our Services</p></span>
+        <div class="web">
+          <div class="ic">
+            <img src="icon1.png" alt="">
+          </div>
+          <div class="tc">
+            <span class="tca"><p>Web Development</p></span>
+            <span class="tcb"><p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec. Lorem ipsum dolor sit amet, consectetuer adipisc ing elit. Aenean commodo ligula eget dolor.</p></span>
+            <span class="tcc"><a href="#">More info</a></span>
+          </div>
+        </div>
+        <div class="web">
+          <div class="ic">
+            <img src="icon2.png" alt="">
+          </div>
+          <div class="tc">
+            <span class="tca"><p>Social Media Strategic</p></span>
+            <span class="tcb"><p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec. Lorem ipsum dolor sit amet, consectetuer adipisc ing elit. Aenean commodo ligula eget dolor.</p></span>
+            <span class="tcc"><a href="#">More info</a></span>
+          </div>
+        </div>
+        <div class="web">
+          <div class="ic">
+            <img src="icon3.png" alt="">
+          </div>
+          <div class="tc">
+            <span class="tca"><p>App Mobile</p></span>
+            <span class="tcb"><p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec. Lorem ipsum dolor sit amet, consectetuer adipisc ing elit. Aenean commodo ligula eget dolor.</p></span>
+            <span class="tcc"><a href="#">More info</a></span>
+          </div>
+        </div>
+        <div class="clear">
+
+        </div>
+      </div>
+    </div>
+    <div class="work">
+      <div class="wrapper">
+        <span class="wrk"><p>Recent Works</p></span>
+        <div class="container-wra">
+          <div class="wra">
+            <nav>
+              <span class="wa"><p>Alarm App</p></span>
+              <span class="wb"><p>Donec quam felis, ultricies nec, pellen tesque eu, pretium quis</p></span>
+              <a href="#">Visit</a>
+            </nav>
+            <img src="work1.jpg" alt="" class="wimg">
+          </div>
+          <div class="wra">
+            <nav>
+              <span class="wa"><p>Findrest App</p></span>
+              <span class="wb"><p>Donec quam felis, ultricies nec, pellen tesque eu, pretium quis</p></span>
+              <a href="#">Visit</a>
+            </nav>
+            <img src="work2.jpg" alt="" class="wimg">
+          </div>
+          <div class="wra">
+            <nav>
+              <span class="wa"><p>Cinemo Dashboard</p></span>
+              <span class="wb"><p>Donec quam felis, ultricies nec, pellen tesque eu, pretium quis</p></span>
+              <a href="#">Visit</a>
+            </nav>
+            <img src="work3.jpg" alt="" class="wimg">
+          </div>
+          <div class="wra">
+            <nav>
+              <span class="wa"><p>Beclass Desktop</p></span>
+              <span class="wb"><p>Donec quam felis, ultricies nec, pellen tesque eu, pretium quis</p></span>
+              <a href="#">Visit</a>
+            </nav>
+            <img src="work4.jpg" alt="" class="wimg">
+          </div>
+          <div class="wra">
+            <nav>
+              <span class="wa"><p>Walksans App</p></span>
+              <span class="wb"><p>Donec quam felis, ultricies nec, pellen tesque eu, pretium quis</p></span>
+              <a href="#">Visit</a>
+            </nav>
+            <img src="work5.jpg" alt="" class="wimg">
+          </div>
+          <div class="wra">
+            <nav>
+              <span class="wa"><p>JBTech Webiste</p></span>
+              <span class="wb"><p>Donec quam felis, ultricies nec, pellen tesque eu, pretium quis</p></span>
+              <a href="#">Visit</a>
+            </nav>
+            <img src="work6.jpg" alt="" class="wimg">
+          </div>
+          <div class="clear"></div>
+          <span class="mrw"> <a href="#">More Work</a> </span>
+        </div>
+      </div>
+    </div>
+    <div class="team">
+      <div class="wrapper">
+        <span class="pt"><p>Our Team</p></span>
+        <div class="ot">
+          <div class="people">
+            <img src="team1.jpg" alt="" class="tim">
+          </div>
+          <div class="tp">
+            <span class="tpa"><p>Bima Putra Anugrah</p></span>
+            <span class="tpb"><p>CEO Founder</p></span>
+            <div class="ic">
+              <a href="#"> <i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="ot">
+          <div class="people">
+            <img src="team2.jpg" alt="">
+          </div>
+          <div class="tp">
+            <span class="tpa"><p>Udin Smith</p></span>
+            <span class="tpb"><p>UI/UX Desginer</p></span>
+            <div class="ic">
+              <a href="#"> <i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="ot">
+          <div class="people">
+            <img src="team3.jpg" alt="">
+          </div>
+          <div class="tp">
+            <span class="tpa"><p>Michael Ucent</p></span>
+            <span class="tpb"><p>Senior Programmer</p></span>
+            <div class="ic">
+              <a href="#"> <i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="clear">
+
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="wrapper">
+        <div class="ft">
+          <div class="fimg">
+            <img src="logo.png" alt="">
+          </div>
+          <span class="fp"><p>Cum sociis natoque penatibus et magnis dis parturient montes,nascetur ridiculus mus. Donec quam.</p></span>
+          <div class="il">
+            <a href="#"> <i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="ft">
+          <span class="nv"><p>Navigate</p></span>
+          <div class="ful">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Profile</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Family</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="ft">
+          <span class="contact"> <p>Contact</p> </span>
+          <div class="cct">
+            <div class="ccct">
+              <i class="fas fa-phone"></i>
+              <p>+565 3242 223</p>
+            </div>
+            <div class="ccct">
+              <i class="fas fa-envelope"></i>
+              <p>company@beemcube.com</p>
+            </div>
+            <div class="ccct">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Jl. Bojong No.691 Sukabumi
+West Java, Indonesia</p>
+            </div>
+          </div>
+        </div>
+        <div class="ft">
+          <span class="nl"><p>Newsletter</p></span>
+          <span class="ins"><p>*insert your email for an update</p></span>
+          <form class="sbc" action="index.html" method="get">
+            <input type="text" name="" value="">
+            <button type="button" name="button">Subscribe</button>
+          </form>
+        </div>
+        <div class="clear"></div>
+        <div class="rights">
+          <p>© 2018 Copyright <a href="#">beemcube.com</a> . All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="search.js"></script>
+<script type="text/javascript">
+  // JavaScript
+  window.sr = ScrollReveal({reset: false, distance: '100px', duration: 1000});
+  sr.reveal('.web');
+  sr.reveal('.wra', { duration: 1000 }, 100);
+  sr.reveal('.ot');
+  sr.reveal('.mrw');
+
+</script>
